@@ -44,7 +44,7 @@ while over<n :
         if ((player_pick=="bat" or comp_pick=="bowl") and innings==1):
             print("you are out")
             innings=2
-            print("now you will bowl to defend: " + str(runs))
+            print("now you will bowl to defend: " + str(target))
         elif((player_pick=="bowl" or comp_pick=="bat")and innings==1):
             print("comp is out")
             innings=2
